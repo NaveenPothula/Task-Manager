@@ -1,0 +1,39 @@
+
+
+.full-width-mobile {
+    width: 100%;
+  }
+
+.full-width-item{
+  width:100%;
+}
+.add-allign {
+  display: flex;
+  justify-content: space-around;
+}
+  
+  /* Media query for screens larger than 768px (typical width for laptops) */
+  @media (min-width: 768px) {
+    /* Styles for laptops and larger screens */
+    .full-width-mobile {
+      width: 40%;
+    }
+    .full-width-item{
+      width: 60%;
+    }
+  }
+
+  /* .buttons-class{
+    width: 70vw;
+    background-color: cyan;
+  }
+   */
+
+  .provide-margin{
+    margin: 10px;
+    background-color: aliceblue; 
+  }
+  .list-items-margin{
+    margin-left: 47px;
+  }
+  

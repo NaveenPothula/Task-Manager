@@ -1,0 +1,27 @@
+
+/* styles.css */
+.details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .task-details {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Add responsive styles as needed */
+  @media (max-width: 768px) {
+    .details-container {
+      padding: 10px;
+    }
+  
+    .task-details {
+      padding: 10px;
+    }
+  }
+  

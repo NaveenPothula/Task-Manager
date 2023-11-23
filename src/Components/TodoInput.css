@@ -1,0 +1,42 @@
+
+
+/* Styles for mobile screens */
+.full-mobile-width {
+    width: 100%;
+  }
+.add-margin{
+  margin: 10px;
+}
+
+.allign{
+  display: block;
+}
+.button-class{
+  height: 40px;
+  width: 100px;
+  margin-top: 0px;
+}
+  
+  /* Media query for screens larger than 768px (typical width for laptops) */
+  @media (min-width: 768px) {
+    /* Styles for laptops and larger screens */
+    .full-mobile-width {
+      width: 30%;
+    }
+    .allign{
+      display: flex;
+      justify-content: space-around;
+    }
+    .button-class{
+      margin-top: 40px;
+      margin-left: 10px; 
+    }
+
+ 
+
+  .heading-tag{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  }
